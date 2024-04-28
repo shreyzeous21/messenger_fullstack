@@ -5,7 +5,7 @@ import AuthContext from "./context/AuthContext";
 import ActiveStatus from "./components/ActiveStatus";
 
 import "./globals.css";
-import LoadingLogo from "./components/LoadingLogo";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +30,6 @@ export default function RootLayout({
           <ActiveStatus />
           {children}
         </AuthContext>
-        <LoadingLogo />
       </body>
     </html>
   );
